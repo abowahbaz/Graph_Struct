@@ -17,8 +17,7 @@ struct Graph
     void addEdge(int u, int v)
     {
         adj[u].push_back(v);
-        adj[v].push_back(u);
-    }
+        }
 
     void build()
     {
